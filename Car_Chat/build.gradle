@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.1"
+
+    defaultConfig {
+        applicationId "com.example.dylancastanhinha.weightmanagement"
+        minSdkVersion 23
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        manifestPlaceholders = [onesignal_app_id: "0f197a61-cb48-4787-b6af-2249c0465798",
+                                // Project number pulled from dashboard, local value is ignored.
+                                onesignal_google_project_number: "REMOTE"]
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile('com.facebook.android:facebook-android-sdk:4.5.0') {
+        exclude group: 'com.parse.bolts'
+    }
+
+    compile 'com.android.support:design:25.3.1'
+    compile('io.nlopez.smartlocation:library:3.3.1') {
+        transitive = false
+    }
+    compile 'net.cachapa.expandablelayout:expandablelayout:2.9.1'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.parse.bolts:bolts-tasks:1.4.0'
+    compile 'com.parse.bolts:bolts-applinks:1.4.0'
+    compile 'com.parse:parse-android:1.14.1'
+    compile 'com.parse:parsefacebookutils-v4-android:1.10.3@aar'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.parse:parseui-widget-android:0.0.1'
+    compile 'com.roughike:bottom-bar:2.2.0'
+    compile 'com.google.android.gms:play-services-maps:11.0.1'
+    compile 'com.google.android.gms:play-services-location:11.0.1'
+    compile 'com.google.android.gms:play-services:11.0.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.miguelcatalan:materialsearchview:1.4.0'
+    compile 'com.1gravity:android-contactpicker:1.3.2'
+    compile 'com.nex3z:toggle-button-group:1.0.2'
+    compile "com.terrakok.phonematter:phonematter:1.0@aar"
+    compile 'com.parse.bolts:bolts-android:1.4.0'
+    compile 'com.google.firebase:firebase-core:10.0.1'
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
+    compile 'cn.pedant.sweetalert:library:1.3'
+    compile 'com.onesignal:OneSignal:[3.5.8, 3.99.99]'
+    compile 'net.alhazmy13.MediaPicker:libary:2.3.3'
+}

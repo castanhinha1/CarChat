@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/chats_fragment"
+            android:icon="@drawable/home"
+            android:title="Chats" />
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/contacts_fragment"
+            android:icon="@drawable/profile"
+            android:title="Contacts" />
+    </group>
+
+    <group android:id="@+id/grp3" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/settings_fragment"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+    </group>
+
+</menu>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@color/palette_lightwhite">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical">
+
+        <RelativeLayout android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp">
+
+            <ImageButton
+                android:id="@+id/profile_details_image_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:background="@null"/>
+
+            <EditText
+                android:id="@+id/profile_details_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="15sp"
+                android:text=""
+                android:maxLines="1"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:layout_toRightOf="@+id/profile_details_image_button"
+                android:layout_toLeftOf="@+id/clear_text_button"/>
+
+            <LinearLayout
+                android:id="@+id/license_plate_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_toRightOf="@+id/profile_details_image_button"
+                android:layout_toLeftOf="@+id/clear_text_button"
+                android:visibility="invisible">
+
+                <EditText
+                    android:id="@+id/license_plate_edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="6"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:textSize="15sp"
+                    android:text=""
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:imeOptions="actionDone" />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/statespinner"
+                    android:layout_height="match_parent"
+                    android:prompt="@string/state"/>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/clear_text_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_delete_button"
+                android:tint="@color/palette_primarytextcolor"
+                android:visibility="invisible"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

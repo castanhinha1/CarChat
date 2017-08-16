@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ConfigClasses.MyProfilePictureView
+                    android:id="@+id/profile_picture"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp">
+                </ConfigClasses.MyProfilePictureView>
+
+                <Button
+                    android:id="@+id/change_photo_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/profile_picture"
+                    android:layout_centerHorizontal="true"
+                    android:background="@null"
+                    android:text="Change Photo"
+                    android:textAppearance="@android:style/TextAppearance.Material.Small"
+                    android:textColor="@color/palette_primarycolor"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/change_photo_button"
+                    android:layout_above="@+id/deleteAccountButton"
+                    android:orientation="vertical">
+
+                    <ListView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:id="@+id/profile_details_list_view">
+                    </ListView>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/deleteAccountButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/palette_lightwhite"
+                    android:text="Delete CarChat Account"
+                    android:textAppearance="@android:style/TextAppearance.Material.Small"
+                    android:textColor="@color/palette_primarycolor"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+</RelativeLayout>

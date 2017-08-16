@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFFDFDFD</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textAppearance">@style/TextAppearance</item>
+        <item name="android:navigationBarColor">?android:attr/colorControlNormal</item>
+        <item name="android:textColorPrimary">@color/palette_primarytextcolor</item>
+    </style>
+
+    <style name="adduserbutton" parent="Widget.AppCompat.ImageButton">
+    </style>
+
+    <style name="TextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/palette_lightprimarycolor</item>
+    </style>
+
+</resources>

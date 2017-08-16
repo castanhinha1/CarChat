@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\build\\intermediates\\res\\merged\\debug\\animator\\slide_in_down.xml",
+        "source": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\src\\main\\res\\animator\\slide_in_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\build\\intermediates\\res\\merged\\debug\\animator\\slide_in_right.xml",
+        "source": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\src\\main\\res\\animator\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\build\\intermediates\\res\\merged\\debug\\animator\\slide_out_down.xml",
+        "source": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\src\\main\\res\\animator\\slide_out_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\build\\intermediates\\res\\merged\\debug\\animator\\slide_out_up.xml",
+        "source": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\src\\main\\res\\animator\\slide_out_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\build\\intermediates\\res\\merged\\debug\\animator\\fade_in.xml",
+        "source": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\src\\main\\res\\animator\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\build\\intermediates\\res\\merged\\debug\\animator\\slide_out_right.xml",
+        "source": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\src\\main\\res\\animator\\slide_out_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\build\\intermediates\\res\\merged\\debug\\animator\\slide_in_left.xml",
+        "source": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\src\\main\\res\\animator\\slide_in_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\build\\intermediates\\res\\merged\\debug\\animator\\fade_out.xml",
+        "source": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\src\\main\\res\\animator\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\build\\intermediates\\res\\merged\\debug\\animator\\slide_in_up.xml",
+        "source": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\src\\main\\res\\animator\\slide_in_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\build\\intermediates\\res\\merged\\debug\\animator\\slide_out_left.xml",
+        "source": "C:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\src\\main\\res\\animator\\slide_out_left.xml"
+    }
+]

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/palette_lightwhite"
+    tools:context="FragmentControllers.SearchForFriends">
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/palette_darkwhite"
+        android:queryHint="Start Typing Friends Name"
+        android:id="@+id/search_view_friends"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emptyTextViewSearch"
+        android:text="No Results..."
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/search_view_friends"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipeContainer"
+        android:background="@color/palette_darkwhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/emptyTextViewSearch">
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@color/palette_darkwhite"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/search_friends_list_view" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

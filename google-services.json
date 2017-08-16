@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "521084357311",
+    "firebase_url": "https://battlebuddies-1493314835298.firebaseio.com",
+    "project_id": "battlebuddies-1493314835298",
+    "storage_bucket": "battlebuddies-1493314835298.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521084357311:android:e1b2f275cbb4ee8d",
+        "android_client_info": {
+          "package_name": "com.example.dylancastanhinha.weightmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521084357311-t2b69opctofthtaggq7f1263mbek7pbo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ3B9gXvkIPbEDK6zbihyHyEFlyMqo954"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

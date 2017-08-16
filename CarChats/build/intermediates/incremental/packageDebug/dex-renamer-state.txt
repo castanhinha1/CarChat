@@ -1,0 +1,7 @@
+#Wed Aug 16 11:34:00 EDT 2017
+base.0=C\:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f882542a96767e549ed7e65ff00d5a4248570ec7
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f7a082b9af6e47f24d61285c496945c1cfb7aa30\\classes.dex
+base.1=C\:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f7a082b9af6e47f24d61285c496945c1cfb7aa30
+file.0=C\:\\Users\\Dylan Castanhinha\\Documents\\CarChat\\CarChats\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f882542a96767e549ed7e65ff00d5a4248570ec7\\classes.dex

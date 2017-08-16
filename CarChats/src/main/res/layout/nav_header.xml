@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:id="@+id/relativelayoutheader">
+
+    <ConfigClasses.MyProfilePictureView
+        android:id="@+id/header_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true">
+    </ConfigClasses.MyProfilePictureView>
+
+    <TextView
+        android:id="@+id/header_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_photo"
+        android:layout_marginTop="10dp"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textColor="@color/palette_primarytextcolor"
+        android:textSize="16sp" />
+
+</RelativeLayout>
